@@ -1,0 +1,36 @@
+{
+  "name": "export-google-sheet",
+  "version": "1.0.0",
+  "description": "transform google sheet to csv and export to JSON format.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gkawin/export-google-sheet.git"
+  },
+  "keywords": [
+    "google",
+    "sheet",
+    "csv",
+    "csvtojson"
+  ],
+  "author": "Kawin Glomjai <g.kawin@live.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gkawin/export-google-sheet/issues"
+  },
+  "homepage": "https://github.com/gkawin/export-google-sheet#readme",
+  "dependencies": {
+    "lodash": "^4.17.5"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
