@@ -4,7 +4,7 @@
   "description": "transform google sheet to csv and export to JSON format.",
   "main": "index.js",
   "scripts": {
-    "dev": "node index.js"
+    "dev": "babel-node index.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,8 @@
     "lodash": "^4.17.5"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
     "eslint": "^4.19.1",
     "eslint-config-standard": "^11.0.0",
     "eslint-plugin-import": "^2.9.0",
