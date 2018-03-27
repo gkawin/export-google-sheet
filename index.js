@@ -1,10 +1,12 @@
-import * as fs from "fs";
-import * as http from "https";
-import * as path from "path";
+const fs = require("fs")
+const http = require("http")
+const path = require("path")
+const csv = require("csvtojson")
+
 const URL_SHEET = "https://docs.google.com/spreadsheets/d/1Az0Ce4KK2Yx-8LdDjgmuYJN0S6x1twjL96UNoqq8SdA/gviz/tq?usp=sharing&tqx=out:csv&gid=0";
-const ns = "translation";
-// tslint:disable-next-line:no-var-requires
-const csv = require("csvtojson");
+const ns = "translation"
+
+
 // tslint:disable-next-line:no-var-requires
 const fromPairs = require("lodash/fromPairs");
 function downloadSheet(): Promise<any> {
